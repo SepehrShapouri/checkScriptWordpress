@@ -2,11 +2,11 @@
   "name": "check-omc-script",
   "version": "0.1.0",
   "private": true,
-  "type" : "module",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "next lint"
   },
   "dependencies": {
