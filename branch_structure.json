@@ -1,0 +1,21 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "feat/new-sidebar",
+    "master",
+    "origin",
+    "simulator"
+  ],
+  "parent": {
+    "feat/new-sidebar": "master",
+    "master": null,
+    "origin": "master",
+    "simulator": "master"
+  },
+  "order": [
+    "master",
+    "feat/new-sidebar",
+    "origin",
+    "simulator"
+  ]
+}
